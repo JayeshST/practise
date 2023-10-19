@@ -1,0 +1,119 @@
+Document:
+System Requirement Specification Document (SRS)
+
+Topic-Vijay Sales  Electronics shop
+
+Client:distributer,vendors,buyer
+
+Parameters=
+sellers,customers,vendors,supplies,distrubitor,manager,delivary tracking,
+payment gateway, application,quantity,discount
+
+terms=
+Direct Customer,Indirect Customer,Software Architect,
+Quality Assurance,Quality Insurance,Manufacturing Resources plannig,Manufacturing
+Rating price,Actions.
+
+
+
+
+Objectives=
+VijaySales is designed to connect distributer,vendors and 
+achitechts on a single plateform. It will help distributer venders
+ and buyers to do efficient bussiness.
+To efficiently perform whole opertions, manage all organisation in proper mannner
+not only manage shopping site but also
+
+
+
+scope:For organisation we create responsive website  that can perform multiple
+operation simultaneously.our project perform different tasks first signup 
+and signIn then in navbar buy,sell,types of products,customer care,complaint
+,tracking ,order,products ,payment,history and many more actions are there.
+The vijaysales will be assist the distributer,vendors,buyer to perrform
+ tasks, and easy tracking of sales & ongoing transactions.
+The VijaySales app will help distributors, vendors, and buyers do 
+things like managing products, placing orders, keeping track of their 
+orders, and making payments. This app will work on both Android and iOS device
+we create wholly electrnics product sale website.
+
+
+Functional Requirements:
+
+According parameters mention above we create vijay sales electronics website.
+there were many functionality available in this. this system totally manage 
+under manager. manager have rights to change any. sellers can sell products in 
+this site.customer can buy any products in available in this site they search 
+in the search bar and type any one products like TV,Mobiles,AC,etc they show all 
+types of products according to there choice we also add filters to manage types,
+colors,Prices of product with the help of JS. how many quantity you want this 
+operations also there. in navbar products, orders,customer care,account and 
+order history parameter are available in products vijay sales add no of types of
+products like ac,tv,mobile,refrigerator,washing m/c,smart watch,alexa and many 
+more. you can click on any one ie mobile all types of mobile phone are available
+not only companywise but also price wise  we can search it. after chosssen mob
+we add  this to cart then type address, and online payment methods like phonepay,
+gpay,bhim app finally after payment we received invoice details on registered mob
+no or email ,customers also track there order with the help of track option .
+this electronics site we create with the help of html,css,js,and sql db . and you 
+return order within 5 days also available. this site available 24 hrs.
+
+   Users must register and log in to access the app.
+Distributors must be approved by the admin before they can use the app.
+Distributors can add, edit, and delete products.
+Products should have attributes such as name, description, price, and images.
+Vendors can place orders for products from Distributors.
+Orders can be edited and canceled by Vendors as long as they are not processed.
+Distributors can process and manage orders.
+The application will integrate with secure payment gateways for Vendor and Buyer payments.
+The application will load quickly and respond promptly to user actions.
+It should handle a large number of concurrent users.
+
+
+
+Non Functional Requirements:
+
+Security--
+
+only login clinets handle there website or  2step verification also there.
+login can change there details only twice a day for security purpose
+only manager and their organisation can check the detaisl of all clinets 
+to what products they want
+each customers will access the system through a authentication process.
+
+
+Reliablilty=
+
+
+The app should be reliable, with minimal downtime or system failures.
+During peak hours, the system will maintain the same user experience by managing load balancing.
+It consistently performs the given tasks without failure.  
+
+Users must register and log in to access the app.
+Distributors must be approved by the admin before they can use the app.
+Distributors can add, edit, and delete products.
+Products should have attributes such as name, description, price, and images.
+Vendors can place orders for products from Distributors.
+Orders can be edited and canceled by Vendors as long as they are not processed.
+Distributors can process and manage orders.
+
+
+
+Scalability
+
+The app should be designed to scale, accommodating an increasing number of users and data.
+The software supports growing amounts of data.
+The software will handle increased workloads while adding and removing users with minimal cost impact.
+
+Safety
+
+The system will be safe from malicious attacks.
+The app should implement safety measures to protect user data and ensure secure payment processing.
+Business data will be backed up periodically to ensure the safety of the data using an incremental backup strategy.
+Role-based security will be applied for application data and operations accessibility.
+
+
+
+
+
+
